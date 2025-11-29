@@ -19,6 +19,20 @@ The application leverages morphological operations to determine critical metrics
     -   Generation of best-fit average distributions.
 -   **Data Comparison**: Tools to compare multiple PDFs and analyze dataset similarities.
 
+## Screenshots
+
+### Segmentation
+![Segmentation Interface](assets/segmentation.png)
+*Advanced segmentation options to isolate features.*
+
+### Analysis
+![Analysis Interface](assets/analysis.png)
+*Morphological and statistical analysis of extracted data.*
+
+### Comparison
+![Comparison Interface](assets/comparision.png)
+*Comparison of Probability Distribution Functions (PDFs).*
+
 ## Prerequisites
 
 Ensure the following are installed on your system:
