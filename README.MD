@@ -1,5 +1,7 @@
 # SEM Analysis Tool
 
+*This project was created by Nelson Goosman, Kenan Anderson, and Nicholas Lopez as part of the spring/fall 2025 capstone project for Dr. Arezoo Zare at Washington State University*
+
 ## Overview
 
 The **SEM Analysis Tool** is a specialized software application designed for the analysis of Scanning Electron Microscope (SEM) images. It provides a robust workflow for researchers and analysts to process images, extract quantitative data, and perform statistical modeling.

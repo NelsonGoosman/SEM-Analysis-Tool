@@ -82,6 +82,22 @@ class AboutView(QWidget):
         
         content_layout.addSpacing(20)
         
+        # Comparison Tab instructions
+        comparision_title = QLabel("Comparison Tab")
+        comparision_title.setFont(QFont('Arial', 14, QFont.Bold))
+        content_layout.addWidget(comparision_title)
+        
+        comparision_instructions = QLabel(
+            "1. Run segmentation on a dataset, navigate to the analysis tab and generate a PDF\n" 
+            "2. Return to the segmentation tab and click 'reset application. Then Run segmentation and analysis again. \n"
+            "3. Navigate to the comparision and select data, then choose two of the datasets. Results will be displayed on the page\n"
+        )
+
+        comparision_instructions.setWordWrap(True)
+        content_layout.addWidget(comparision_instructions)
+        content_layout.addSpacing(20)
+
+
         # Tips and shortcuts
         tips_title = QLabel("Tips and Shortcuts")
         tips_title.setFont(QFont('Arial', 14, QFont.Bold))

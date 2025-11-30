@@ -4,7 +4,6 @@ from PyQt5.QtWidgets import QApplication, QMainWindow, QStyleFactory
 from PyQt5.QtGui import QFont
 from views import MainView
 import os
-import test_module
 
 # Define paths for various directories
 PARENT = os.path.join(os.path.expanduser('~'),'AppData','Local','Segmentation App')
